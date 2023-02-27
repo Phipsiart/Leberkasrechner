@@ -1,0 +1,21 @@
+.brandheader{
+    padding-top: 10px;
+     font-weight: bold;
+  }
+    .brandimage{
+    margin-left: 1%;
+    }
+    .brandheaderspan{
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    font-weight: bold;
+    padding-right: 10px;
+    }
+    .headerbrand{
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    }
+    .pageheader{
+    margin-top: 10px;
+    }
