@@ -24,15 +24,12 @@ export default function Caclulator() {
         <h1 className={styles.Headline}>
         Wie viele Leberkassemmeln hast du?
           </h1>
-        <div className={styles.Calculator}>
-        <input className="form-control" id="inputvalue" placeholder="Anzahl eingeben"></input>
-       </div>
-       <div className="d-flex justify-content-center">
-        <button className="btn btn-primary" onClick={Livercheesecalculate}>Eingabe</button>
+        <div className="d-flex justify-content-center" id={styles.Calculator}>
+        <input className={styles.boxanimation} type="number" id="inputvalue" placeholder="Anzahl eingeben"></input>
+        <button onClick={Livercheesecalculate} className={styles.inputbutton}>Eingabe</button>
        </div>
        <Footer></Footer>
        </main>
-
         </>
     )
 }
