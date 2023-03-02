@@ -25,7 +25,7 @@ export default function Caclulator() {
         Wie viele Leberkassemmeln hast du?
           </h1>
         <div className="d-flex justify-content-center" id={styles.Calculator}>
-        <input className={styles.boxanimation} type="number" id="inputvalue" placeholder="Anzahl eingeben"></input>
+        <input autoComplete="false" className={styles.boxanimation} type="number" id="inputvalue" placeholder="Anzahl eingeben"></input>
         <button onClick={Livercheesecalculate} className={styles.inputbutton}>Eingabe</button>
        </div>
        <Footer></Footer>
